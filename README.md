@@ -4,6 +4,10 @@ ctrl + alt + c, a
 
 ![image](https://github.com/user-attachments/assets/22f36bab-4e74-4377-b6dd-237a5f0213eb)
 
+- todo make text and keybind a configurable setting
+- tweak popup?
+- make web install work
+
 
 ![Build](https://github.com/irismessage/intellij-platform-plugin-test/workflows/Build/badge.svg)
 [![Version](https://img.shields.io/jetbrains/plugin/v/MARKETPLACE_ID.svg)](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID)

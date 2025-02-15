@@ -106,6 +106,10 @@ intellijPlatform {
             recommended()
         }
     }
+
+    // allow auto-reload
+    // https://plugins.jetbrains.com/docs/intellij/ide-development-instance.html#intellij-platform-gradle-plugin-2x
+    buildSearchableOptions = false
 }
 
 // Configure Gradle Changelog Plugin - read more: https://github.com/JetBrains/gradle-changelog-plugin

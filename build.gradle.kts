@@ -47,7 +47,7 @@ intellijPlatform {
     pluginConfiguration {
         version = providers.gradleProperty("pluginVersion")
 
-        description = "Hello"
+        description = "Gag IntelliJ IDEA Platform plugin to display a popup saying \"This code is ass. Session terminated\""
 
         ideaVersion {
             sinceBuild = providers.gradleProperty("pluginSinceBuild")

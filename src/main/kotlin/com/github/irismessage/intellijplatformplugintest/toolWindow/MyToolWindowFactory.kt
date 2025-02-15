@@ -7,6 +7,7 @@ import com.intellij.openapi.components.service
 import com.intellij.openapi.diagnostic.thisLogger
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.ui.DialogWrapper
+import com.intellij.openapi.ui.Messages
 import com.intellij.openapi.wm.ToolWindow
 import com.intellij.openapi.wm.ToolWindowFactory
 import com.intellij.ui.components.JBLabel
@@ -63,6 +64,7 @@ class MyToolWindowFactory : ToolWindowFactory {
                 addActionListener {
                     label.text = MyBundle.message("randomLabel", service.getRandomNumber())
                     MyDialogWrapper().show()
+                    Messages.showMessageDialog("test", "test", Messages.getInformationIcon())
                 }
             })
         }

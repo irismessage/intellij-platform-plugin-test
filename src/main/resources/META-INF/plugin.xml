@@ -1,7 +1,7 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.irismessage.intellijplatformplugintest</id>
-    <name>intellij-platform-plugin-test</name>
+    <id>com.github.irismessage.sessionterminatedcodeass</id>
+    <name>Session Terminated, Code Ass</name>
     <vendor>irismessage</vendor>
 
     <depends>com.intellij.modules.platform</depends>
@@ -9,7 +9,7 @@
     <resource-bundle>messages.MyBundle</resource-bundle>
 
     <actions>
-        <action class="com.github.irismessage.intellijplatformplugintest.DummyDialogAction">
+        <action class="com.github.irismessage.sessionterminatedcodeass.DummyDialogAction">
             <keyboard-shortcut first-keystroke="control alt A" second-keystroke="C" keymap="$default"/>
         </action>
     </actions>

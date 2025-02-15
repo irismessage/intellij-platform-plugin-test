@@ -1,4 +1,4 @@
-package com.github.irismessage.intellijplatformplugintest
+package com.github.irismessage.sessionterminatedcodeass
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls

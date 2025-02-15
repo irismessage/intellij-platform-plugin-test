@@ -28,7 +28,7 @@ private class DummyDialogWrapper(project: Project?) : DialogWrapper(project) {
     }
 }
 
-class DummyDialogAction() : AnAction() {
+class DummyDialogAction : AnAction() {
     override fun actionPerformed(event: AnActionEvent) {
         DummyDialogWrapper(event.project).show()
     }

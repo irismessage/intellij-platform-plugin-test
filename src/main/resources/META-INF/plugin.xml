@@ -8,14 +8,6 @@
 
     <resource-bundle>messages.MyBundle</resource-bundle>
 
-    <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.irismessage.intellijplatformplugintest.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
-    </extensions>
-
-    <applicationListeners>
-        <listener class="com.github.irismessage.intellijplatformplugintest.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
-    </applicationListeners>
-
     <actions>
         <action class="com.github.irismessage.intellijplatformplugintest.DummyDialogAction">
             <keyboard-shortcut first-keystroke="control alt A" second-keystroke="C" keymap="$default"/>
